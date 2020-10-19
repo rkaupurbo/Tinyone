@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	background: #fcdb00;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: 500;
+
+}
+
+.bg-light{
+	background: transparent!important;
+	padding-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #010101;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 120px;
+
+}
+
+.baner_section{
+	width: 100%;
+	background: #fcdb00;
+	padding: 70px 0;
+}
+.baner_left{
+	width: 100%;
+}
+
+.baner_section .head_in{
+	padding-top: 50px;
+}
+
+.baner_section p{
+	font-size: 16px;
+	margin-bottom: 20px;
+
+}
+
+.feature_section{
+	width: 100%;
+	padding: 20px 0px 50px;
+}
+
+.feature_heading {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.media_imo{
+	font-size: 50px;
+	margin-right: 35px;
+}
+
+.feature_section .feature_vheading{
+	margin-bottom: 60px
+}
+
+.feature_section .media{
+	margin-bottom: 50px;
+}
+
+
+.communication_section{
+	width: 100%;
+	padding: 40px 0;
+	background: #010101;
+}
+
+.communication_section .comu_heading{
+	color: #fcdb00;
+	margin-bottom: 15px;
+}
+
+.communication_section .comu_vheading{
+	color: #717171;
+	margin-bottom: 30px;
+}
+
+.communication_section .form-group{
+	width: 75%;
+}
+
+.communication_section .form-control{
+	width: 100%!important;
+	margin-right: 10px;
+}
+
+.communication_section .btn-primary {
+    color: #000;
+    /* background-color: #007bff; */
+    border: 1px solid #fcdb00;
+    padding: 5px 35px;
+    background: #fcdb00;
+    transition: .4s;
+    font-weight: 600;
+}
+
+.communication_section .btn-primary:hover{
+	  
+	  background: #fff;
+	  color: #fcdb00;
+	  border: 1px solid #fcdb00;
+
+}
+
+.communication_section .btn-primary:focus {
+	border: 1px solid #fcdb00!important;
+	box-shadow: none!important;
+	background: #fcdb00!important;
+}
+
+.communication_section .btn-primary:active {
+	border: 1px solid #fcdb00!important;
+	box-shadow: none!important;
+	background: #fcdb00!important;
+}
+
+
+.social_icons{
+	width: 100%;
+
+}
+
+.navo{
+	text-align: center;
+	/*display: block;*/
+}
+
+.navo li{
+	display: inline-block;
+	list-style: none;
+	margin: 30px 20px 0px;
+}
+
+.navo li a{
+	font-size: 40px;
+	color: #010101;
+}
+
+.navo li a .fa{
+	color: #fcdb00;
+	padding: 2px;
+	transition: .5s ease-out;
+}
+
+.navo li a .fa:hover{
+	color: #010101;
+	background: #fcdb00; 
+}
+
+footer{
+	width: 100%;
+	padding: 40px 0px;
+	
+	background: #010101;
+}
+
+footer h6{
+	font-size: 20px;
+	color: #d4d4d4;
+}
+
+footer  .foot_p{
+	color: #fff;
+	line-height: 1.4;
+}
+
+.foot_r .marr{
+	color: #fff;
+}
+
+
+
+
+
+

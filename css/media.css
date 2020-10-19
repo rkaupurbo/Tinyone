@@ -1,0 +1,296 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	h1 {
+	    font-size: 28px;
+	    margin-bottom: 15px;
+	}
+
+	h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+	}
+  
+  .navbar-light .navbar-nav .nav-link{
+  	font-size: 16px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+
+  .baner_section {
+  
+	    padding: 0px 0;
+	}
+
+	.baner_section .head_in {
+	    padding-top: 10px;
+	}
+	.baner_section p{
+	font-size: 14px;
+	margin-bottom: 40px;
+	
+	}
+
+	.baner_section .ipad {
+	  
+	    padding: 30px;
+	}
+	.amw{
+		text-align: center;
+	}
+
+	.feature_section {
+	    padding: 0px 0px 10px;
+	}
+	
+	.feature_heading {
+	    margin-top: 28px;
+	    margin-bottom: 10px;
+	}
+
+	.feature_vheading {
+	    margin-bottom: 40px!important;
+	}
+
+	.media {
+	    margin-bottom: 30px;
+	}
+
+	.communication_section {
+  
+	    padding: 40px 0 12px;
+
+	}
+
+
+	.communication_section .comu_heading {
+
+	    margin-bottom: 10px;
+	    font-size: 28px;
+	}
+
+	.communication_section .form-group {
+	    width: 100%;
+	}
+
+	.communication_section .form-control {
+	    margin-right: 0px;
+	    text-align: center;
+	}
+
+	.communication_section .btn-primary{
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.navo li {
+	    
+	    margin: 15px 15px 0px;
+	}
+
+
+	footer {
+	    padding: 0px 0px 20px;
+	}
+
+	footer p {
+
+	    text-align: center;
+	}
+
+	.foot_r {
+	    padding-top: 30px;
+	    font-size: 16px;
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+
+	footer p{
+		line-height: 8px;
+
+	}
+
+
+
+	.f_head {
+	    font-size: 25px!important;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+
+	.fl1 p{
+		font-size: 20px;
+		/*letter-spacing: 1px;*/
+	}
+
+	
+
+
+
+  
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  h1 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+
+	h3 {
+	    font-size: 25px;
+	    margin-bottom: 20px;
+	}
+  
+  .navbar-light .navbar-nav .nav-link{
+  	font-size: 16px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+
+  .baner_section {
+  
+	    padding: 0px 0;
+	}
+
+	.baner_section .head_in {
+	    padding-top: 10px;
+	}
+	.baner_section p{
+	font-size: 14px;
+	margin-bottom: 40px;
+	
+	}
+
+	.baner_section .ipad {
+	  
+	    padding: 30px 0 50px
+	}
+	.amw{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.communication_section .form-group {
+	    width: 100%;
+	}
+
+	.communication_section .form-control {
+	    margin-right: 0px;
+	    text-align: center;
+	    padding: 22px 0px;
+	    font-size: 20px;
+	}
+
+	.communication_section .btn-primary{
+		margin: auto;
+		margin-top: 10px;
+		padding: 10px 40px;
+	}
+
+	.navo li {
+	    
+	    margin: 15px 15px 0px;
+	}
+
+	footer {
+	    padding: 0px 0px 20px;
+	}
+
+	footer p {
+
+	    text-align: center;
+	}
+
+	.foot_r {
+	    padding-top: 30px;
+	    letter-spacing: 1.5px;
+	}
+
+	footer p{
+		line-height: 8px;
+
+	}
+
+	.f_head {
+	    font-size: 25px!important;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    margin-top: 10px;
+	}
+
+	.fl1 p{
+		font-size: 20px;
+		/*letter-spacing: 1px;*/
+	}
+
+	.communication_section {
+    /* width: 100%; */
+    padding: 40px 0 0px;
+    /* background: #010101; */
+}
+
+.communication_section .comu_heading {
+
+	    font-size: 35px;
+	}
+
+	.communication_section .comu_vheading {
+    
+	    font-size: 17px;
+	}
+
+
+  
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navbar-light .navbar-nav .nav-link{
+  	font-size: 16px;
+    font-weight: 500;
+  }
+
+  .amw{
+		text-align: center;
+		margin-top: 70px;
+	}
+
+	.communication_section .form-group {
+	    width: 100%;
+	}
+
+	.communication_section .form-control {
+	    margin-right: 0px;
+	    text-align: center;
+	    padding: 22px 0px;
+	    font-size: 20px;
+	}
+
+	.communication_section .btn-primary{
+		margin: auto;
+		margin-top: 10px;
+		padding: 10px 40px;
+	}
+  
+}
